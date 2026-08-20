@@ -14,20 +14,15 @@ function getPlayerStats(player) {
     return {
         name: player.name,
         average: averageScore,
-        rank
+        rank,
     };
 }
-console.log(getPlayerStats({
-    name: "Nova",
-    scores: [90, 85, 95, 80]
-}));
-// Expected output:
-// { name: "Nova", average: 87.5, rank: "MVP" }
-// another example:
-console.log(getPlayerStats({
-    name: "Zex",
-    scores: [60, 55, 70, 50]
-}));
-// Expected output:
-// { name: "Zex", average: 58.75, rank: "Rookie" }
+// console.log(getPlayerStats({
+//     name: "Nova",
+//     scores: [90, 85, 95, 80]
+// }));
+// console.log(getPlayerStats({
+//     name: "Zex",
+//     scores: [60, 55, 70, 50]
+// }));
 //# sourceMappingURL=problem-5.js.map
